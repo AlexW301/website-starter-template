@@ -7,8 +7,8 @@ export default function Home() {
   const { test } = useStateContext()
   console.log(test)
   return (
-    <div className="">
+    <>
       <HeroSection />
-    </div>
+    </>
   );
 }

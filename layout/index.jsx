@@ -9,9 +9,9 @@ export default function Layout({ children }) {
         <title>My Title</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <Header/>
+      <Header />
       {children}
-      <Footer/>
+      <Footer />
     </>
   );
 }
